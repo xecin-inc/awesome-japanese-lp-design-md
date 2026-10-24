@@ -1,0 +1,256 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<title>ヘアケア・ボディケアの清潔・爽やかな LP の型 — designmark 型パックの見本</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&amp;display=swap">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { width: 1200px; background: #F3F3F1; color: #1B2733; font-family: "Noto Sans JP", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .head { padding: 44px 56px 34px; background: #F8FAFA; color: #282F34; border-bottom: 1px solid rgba(0, 0, 0, .08); }
+  .kicker { margin: 0 0 14px; font: 600 12px/1 system-ui, sans-serif; letter-spacing: .14em; opacity: .7; }
+  .kicker b { padding: 4px 10px; border-radius: 999px; background: #33B0C0; color: #FFFFFF; margin-right: 10px; letter-spacing: .08em; }
+  h1 { margin: 0 0 10px; font-size: 40px; line-height: 1.3; font-family: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-weight: 700; }
+  .sub { margin: 0; font-size: 15px; line-height: 1.7; opacity: .82; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .tags span { font-size: 12px; padding: 5px 12px; border-radius: 999px; border: 1px solid currentColor; opacity: .75; }
+  .bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin-top: 22px; border: 1px solid rgba(0, 0, 0, .1); }
+  .bar i { flex: 1; }
+  /* 左の列は書体見本（折り返さない）の幅で広がらないよう、最小幅を 0 にする */
+  .grid { display: grid; grid-template-columns: minmax(0, 1fr) 392px; gap: 40px; padding: 36px 56px 48px; }
+  h2 { margin: 0 0 14px; font: 700 12px/1 system-ui, sans-serif; letter-spacing: .14em; color: #5A6470; }
+  h2 span { margin-left: 8px; font-family: "Noto Sans JP", sans-serif; letter-spacing: .04em; color: #8A929B; font-weight: 500; }
+  .card { background: #FFFFFF; border-radius: 16px; padding: 22px 24px; margin-bottom: 26px; box-shadow: 0 1px 2px rgba(0, 0, 0, .05); }
+  .sw-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .sw { border: 1px solid #E6E6E3; border-radius: 12px; overflow: hidden; background: #FFFFFF; }
+  .sw .chip { display: block; height: 58px; padding: 9px 10px; font: 600 12px/1 ui-monospace, Menlo, Consolas, monospace; }
+  .sw .meta { display: block; padding: 8px 10px 10px; font-size: 11px; line-height: 1.5; color: #4A535C; }
+  .sw code { font: 600 11px ui-monospace, Menlo, Consolas, monospace; color: #1B2733; }
+  .ty { padding: 12px 0; border-bottom: 1px solid #EEEEEC; }
+  .ty:last-child { border-bottom: 0; padding-bottom: 2px; }
+  .ty .meta { margin-bottom: 6px; font-size: 11px; color: #6A737C; }
+  .ty .meta code { font: 600 11px ui-monospace, Menlo, Consolas, monospace; color: #1B2733; margin-right: 6px; }
+  .ty .sample { color: #1B2733; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .demo { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; padding: 24px; border-radius: 12px; background: #F8FAFA; color: #282F34; }
+  .btn { display: inline-block; padding: 16px 40px; font-weight: 700; font-size: 15px; line-height: 1; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; }
+  .btn-cta { background: #F7D40D; color: #1A1A1B; border-radius: 999px; box-shadow: 0 2px 0 rgba(0, 0, 0, .12); }
+  .btn-sub { background: transparent; color: #33B0C0; border: 2px solid #33B0C0; border-radius: 999px; padding: 14px 32px; }
+  .badge { display: inline-block; padding: 6px 12px; border-radius: 4px; background: #33B0C0; color: #FFFFFF; font-size: 12px; font-weight: 700; }
+  .mini { width: 220px; padding: 16px; border-radius: 10px; background: #F7F7F7; color: #282F34; border: 1px solid #97CADA; font-size: 12px; line-height: 1.6; }
+  .mini b { display: block; margin-bottom: 4px; font-size: 14px; font-family: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-weight: 700; }
+  .shapes { display: flex; gap: 16px; margin-top: 18px; }
+  .shapes div { width: 96px; height: 64px; background: #33B0C0; opacity: .9; display: grid; place-items: center; color: #1A1A1B; font: 600 11px ui-monospace, Menlo, Consolas, monospace; }
+  .comps { margin: 16px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; font-size: 12px; color: #4A535C; }
+  .comps code { font: 600 11px ui-monospace, Menlo, Consolas, monospace; color: #8A929B; }
+  .phone { border: 10px solid #1B2733; border-radius: 34px; overflow: hidden; background: #F8FAFA; box-shadow: 0 6px 24px rgba(0, 0, 0, .12); }
+  .wire { color-scheme: light; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; }
+  .wire p { margin: 0; }
+  .wire .w-sec { padding: 24px 22px 26px; }
+  .wire .w-no { font: 600 10px/1 system-ui, sans-serif; letter-spacing: .12em; opacity: .6; margin-bottom: 6px; }
+  .wire .w-name { font-size: 18px; line-height: 1.4; margin-bottom: 4px; font-family: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-weight: 700; }
+  .wire .w-purpose { font-size: 11.5px; line-height: 1.6; opacity: .85; margin-bottom: 14px; }
+  .wire s { display: block; height: 6px; border-radius: 3px; background: currentColor; opacity: .22; margin-top: 7px; text-decoration: none; }
+  .wire s.w60 { width: 60%; } .wire s.w70 { width: 70%; } .wire s.w80 { width: 80%; }
+  .wire .w-btn { display: inline-block; padding: 13px 34px; font-weight: 700; font-size: 13px; line-height: 1; background: #F7D40D; color: #1A1A1B; border-radius: 999px; }
+  .wire .w-faq { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); }
+  .wire .w-faq b { color: #33B0C0; }
+  .wire .w-faq s { flex: 1; margin: 0; }
+  .wire .w-cols2, .wire .w-cols3 { display: grid; gap: 10px; }
+  .wire .w-cols2 { grid-template-columns: 1fr 1fr; }
+  .wire .w-cols3 { grid-template-columns: repeat(3, 1fr); }
+  .wire .w-box { background: rgba(255, 255, 255, .55); padding: 12px 10px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0, 0, 0, .08); }
+  .wire .w-box i { display: block; width: 24px; height: 24px; border-radius: 50%; background: currentColor; opacity: .35; margin-bottom: 6px; }
+  .wire .w-box i.on { background: #33B0C0; opacity: .85; }
+  .wire .w-box em { display: block; height: 14px; width: 55%; border-radius: 4px; margin-top: 8px; background: #33B0C0; }
+  .wire .w-steps { display: flex; gap: 12px; }
+  .wire .w-steps > div { flex: 1; }
+  .wire .w-steps em { display: inline-grid; place-items: center; width: 22px; height: 22px; border: 1.5px solid #33B0C0; color: #33B0C0; border-radius: 50%; font: 700 11px/1 sans-serif; font-style: normal; }
+  .wire .w-ph { height: 110px; display: grid; place-items: center; font-size: 11px; border-radius: 10px; background: color-mix(in srgb, currentColor 10%, transparent); }
+  .note { margin: 14px 4px 0; font-size: 11px; line-height: 1.6; color: #6A737C; }
+  .foot { padding: 0 56px 40px; font-size: 12px; color: #6A737C; }
+</style>
+</head>
+<body>
+<header class="head">
+  <p class="kicker"><b>PATTERN PACK</b>designmark 型パック ・ pk-haircare-fresh ・ v2026.10</p>
+  <h1>ヘアケア・ボディケアの清潔・爽やかな LP の型</h1>
+  <p class="sub">Fresh Clean Japanese Hair &amp; Body Care LP Pattern ／ ヘアケア・ボディケア ・ 主な雰囲気「清潔・爽やか」 ／ designmark の設計書 22 件を集計して合成した型（特定の LP のデザインではありません）</p>
+  <div class="tags"><span>透明感</span><span>水滴・泡</span><span>アクアブルー</span><span>白カード</span><span>水色グラデーション</span><span>成分訴求</span></div>
+  <div class="bar" aria-hidden="true"><i style="background: #F8FAFA"></i><i style="background: #EEF3F5"></i><i style="background: #33B0C0"></i><i style="background: #F7F7F7"></i><i style="background: #BDE2E9"></i><i style="background: #0C2E5D"></i></div>
+</header>
+<main class="grid">
+  <section>
+    <h2>COLORS<span>配色</span></h2>
+    <div class="card">
+      <div class="sw-grid">
+        <div class="sw"><span class="chip" style="background: #33B0C0; color: #FFFFFF">#33B0C0</span><span class="meta"><code>primary</code><br>ブランドのアクアブルー（見出し・帯・欧文ラベル）</span></div>
+        <div class="sw"><span class="chip" style="background: #F8FAFA; color: #1B2733">#F8FAFA</span><span class="meta"><code>background</code><br>ページの基本の白地</span></div>
+        <div class="sw"><span class="chip" style="background: #EEF3F5; color: #1B2733">#EEF3F5</span><span class="meta"><code>background-alt</code><br>セクションを交互に切り替える淡い水色グレーの地</span></div>
+        <div class="sw"><span class="chip" style="background: #4CC1EF; color: #1B2733">#4CC1EF</span><span class="meta"><code>secondary</code><br>FV の空色やグラデーション帯の明るい青</span></div>
+        <div class="sw"><span class="chip" style="background: #F7F7F7; color: #1B2733">#F7F7F7</span><span class="meta"><code>surface</code><br>色の地に載せる白いカード・パネル</span></div>
+        <div class="sw"><span class="chip" style="background: #BDE2E9; color: #1B2733">#BDE2E9</span><span class="meta"><code>tint-1</code><br>ラベル・表の見出し・成分パネルに使う淡い水色</span></div>
+        <div class="sw"><span class="chip" style="background: #282F34; color: #FFFFFF">#282F34</span><span class="meta"><code>text</code><br>見出しと本文の青みのあるチャコール</span></div>
+        <div class="sw"><span class="chip" style="background: #565759; color: #FFFFFF">#565759</span><span class="meta"><code>text-body</code><br>長い説明文のグレー</span></div>
+        <div class="sw"><span class="chip" style="background: #828E9E; color: #FFFFFF">#828E9E</span><span class="meta"><code>text-muted</code><br>注釈・英字の小見出しに使う青みのあるグレー</span></div>
+        <div class="sw"><span class="chip" style="background: #97CADA; color: #1B2733">#97CADA</span><span class="meta"><code>line</code><br>見出し下の細線・Q&amp;A の区切り線</span></div>
+        <div class="sw"><span class="chip" style="background: #F7D40D; color: #1B2733">#F7D40D</span><span class="meta"><code>cta</code><br>購入ボタンの黄色</span></div>
+        <div class="sw"><span class="chip" style="background: #1A1A1B; color: #FFFFFF">#1A1A1B</span><span class="meta"><code>on-cta</code><br>黄色ボタンの上の濃い文字</span></div>
+        <div class="sw"><span class="chip" style="background: #539AB8; color: #FFFFFF">#539AB8</span><span class="meta"><code>accent-1</code><br>成分・数値を強調するスモーキーブルー</span></div>
+        <div class="sw"><span class="chip" style="background: #B99A51; color: #1B2733">#B99A51</span><span class="meta"><code>accent-2</code><br>受賞・実績を見せる金色</span></div>
+        <div class="sw"><span class="chip" style="background: #0C2E5D; color: #FFFFFF">#0C2E5D</span><span class="meta"><code>dark-section</code><br>悩み提起・実績パートの濃紺の地</span></div>
+        <div class="sw"><span class="chip" style="background: #FCFEFC; color: #1B2733">#FCFEFC</span><span class="meta"><code>on-dark</code><br>濃い地・色帯の上の白文字</span></div>
+        <div class="sw"><span class="chip" style="background: #257E8A; color: #FFFFFF">#257E8A</span><span class="meta"><code>primary-accessible</code><br>AA を満たす補正値（計算）</span></div>
+        
+      </div>
+    </div>
+    <h2>TYPOGRAPHY<span>書体</span></h2>
+    <div class="card">
+      <div class="ty">
+        <div class="meta"><code>display</code>FV のメインコピー・大きな数字コピー ／ 明朝・Shippori Mincho・500・40px・行間 1.25</div>
+        <div class="sample" style="font-family: 'Shippori Mincho', 'Noto Sans JP', sans-serif; font-weight: 500; font-size: 40px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>headline-lg</code>セクションの大見出し ／ ゴシック・Zen Kaku Gothic New・700・26px・行間 1.4</div>
+        <div class="sample" style="font-family: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 26px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>headline-md</code>商品・特長のキャッチ（2 行程度） ／ ゴシック・Zen Kaku Gothic New・700・20px・行間 1.5</div>
+        <div class="sample" style="font-family: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 20px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>headline-sm</code>カード・帯の中の小見出し ／ ゴシック・Noto Sans JP・700・16px・行間 1.4</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 16px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>body-md</code>説明の本文 ／ ゴシック・Noto Sans JP・400・14px・行間 1.8</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 400; font-size: 14px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>note</code>注釈・成分の詳細・出典 ／ ゴシック・Noto Sans JP・400・10px・行間 1.6</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 400; font-size: 12px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>accent</code>欧文のセクションラベル・POINT 番号・％などの数字 ／ 欧文サンセリフ・Montserrat・400・22px・行間 1.2</div>
+        <div class="sample" style="font-family: 'Montserrat', 'Noto Sans JP', sans-serif; font-weight: 400; font-size: 22px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>label-button</code>CTA・ラベルの文字 ／ ゴシック・Noto Sans JP・700・16px・行間 1.2</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 16px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      
+    </div>
+    <h2>COMPONENTS<span>部品と角丸</span></h2>
+    <div class="card">
+      <div class="demo">
+        <span class="btn btn-cta">申し込む</span>
+        <span class="btn btn-sub">詳しく見る</span>
+        <span class="badge">ポイント</span>
+        <div class="mini"><b>カードの見出し</b>本文のテキストが入ります。余白と角丸の見本です。</div>
+      </div>
+      <div class="shapes">
+        <div style="border-radius: 4px">sm 4px</div>
+        <div style="border-radius: 10px">md 10px</div>
+        <div style="border-radius: 20px">lg 20px</div>
+        <div style="border-radius: 999px">pill</div>
+      </div>
+      <ul class="comps"><li>購入ボタン <code>button-primary</code></li><li>詳細ボタン <code>button-outline</code></li><li>2 段見出し <code>section-heading</code></li><li>番号付き特長カード <code>point-card</code></li><li>ポイント番号 <code>point-number</code></li><li>悩みチェックリスト <code>worry-checklist</code></li><li>成分カード <code>ingredient-card</code></li><li>泡の円バッジ <code>bubble-badge</code></li></ul>
+    </div>
+  </section>
+  <aside>
+    <h2>PAGE STRUCTURE<span>セクションの並び</span></h2>
+    <div class="phone">
+      <div class="wire">
+        <div class="w-sec" style="background: #F8FAFA; color: #828E9E">
+          <p class="w-no">01</p>
+          <p class="w-name" style="color: #282F34">ファーストビュー</p>
+          <p class="w-purpose">商品と、季節や髪・肌の悩みに効くことを一目で伝える</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #EEF3F5; color: #828E9E">
+          <p class="w-no">02</p>
+          <p class="w-name" style="color: #282F34">コンセプト</p>
+          <p class="w-purpose">商品が生まれた背景や使う場面を情緒的に伝える</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #F8FAFA; color: #828E9E">
+          <p class="w-no">03</p>
+          <p class="w-name" style="color: #282F34">悩みの提起</p>
+          <p class="w-purpose">読み手の悩みに共感する</p>
+          <div class="w-cols3"><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div></div>
+          
+        </div>
+        <div class="w-sec" style="background: #0C2E5D; color: #FFFFFF">
+          <p class="w-no">04</p>
+          <p class="w-name" style="color: #FFFFFF">原因の解説</p>
+          <p class="w-purpose">悩みが起きる仕組みを整理して説明する</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #F8FAFA; color: #828E9E">
+          <p class="w-no">05</p>
+          <p class="w-name" style="color: #282F34">特長</p>
+          <p class="w-purpose">商品の解決策を要点ごとに示す</p>
+          <div class="w-cols3"><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div></div>
+          
+        </div>
+        <div class="w-sec" style="background: #EEF3F5; color: #828E9E">
+          <p class="w-no">06</p>
+          <p class="w-name" style="color: #282F34">配合成分</p>
+          <p class="w-purpose">成分の根拠を示す</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #F8FAFA; color: #828E9E">
+          <p class="w-no">07</p>
+          <p class="w-name" style="color: #282F34">使い方</p>
+          <p class="w-purpose">使う手順と量を伝える</p>
+          <div class="w-steps"><div><em>1</em><s></s></div><div><em>2</em><s></s></div><div><em>3</em><s></s></div></div>
+          
+        </div>
+        <div class="w-sec" style="background: #0C2E5D; color: #FFFFFF">
+          <p class="w-no">08</p>
+          <p class="w-name" style="color: #FFFFFF">お客様の声</p>
+          <p class="w-purpose">使った人の感想で信頼を得る</p>
+          <div class="w-cols2"><div class="w-box"><i></i><s></s><s class="w70"></s></div><div class="w-box"><i></i><s></s><s class="w70"></s></div></div>
+          
+        </div>
+        <div class="w-sec" style="background: #F8FAFA; color: #828E9E">
+          <p class="w-no">09</p>
+          <p class="w-name" style="color: #282F34">ラインナップ・購入</p>
+          <p class="w-purpose">香りや容量の違いを見せ、購入へ送る</p>
+          <span class="w-btn">ボタン</span>
+          
+        </div>
+        <div class="w-sec" style="background: #EEF3F5; color: #828E9E">
+          <p class="w-no">10</p>
+          <p class="w-name" style="color: #282F34">よくある質問</p>
+          <p class="w-purpose">購入前の不安を解消する</p>
+          <div class="w-faq"><b>Q</b><s></s></div><div class="w-faq"><b>Q</b><s></s></div><div class="w-faq"><b>Q</b><s></s></div>
+          
+        </div>
+        <div class="w-sec" style="background: #F8FAFA; color: #828E9E">
+          <p class="w-no">11</p>
+          <p class="w-name" style="color: #282F34">フッター</p>
+          <p class="w-purpose">ブランド情報と SNS への導線を置く</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        
+      </div>
+    </div>
+    <p class="note">セクションの並びと役割を、この型パックの配色・書体で描いた図です（自動で作成。どの LP の画像・文言も使っていません）。</p>
+  </aside>
+</main>
+<footer class="foot">designmark（株式会社 XECIN）の型パック ・ ライセンス CC BY 4.0 ・ https://designmark.jp/packs/pk-haircare-fresh/</footer>
+</body>
+</html>
