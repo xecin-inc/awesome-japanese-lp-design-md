@@ -1,0 +1,258 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<title>金融・保険のポップで元気なキャンペーンLPの型 — designmark 型パックの見本</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One:wght@700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One:wght@900&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&amp;display=swap">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { width: 1200px; background: #F3F3F1; color: #1B2733; font-family: "Noto Sans JP", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .head { padding: 44px 56px 34px; background: #FCFDFD; color: #1D1C1B; border-bottom: 1px solid rgba(0, 0, 0, .08); }
+  .kicker { margin: 0 0 14px; font: 600 12px/1 system-ui, sans-serif; letter-spacing: .14em; opacity: .7; }
+  .kicker b { padding: 4px 10px; border-radius: 999px; background: #079C59; color: #FFFFFF; margin-right: 10px; letter-spacing: .08em; }
+  h1 { margin: 0 0 10px; font-size: 40px; line-height: 1.3; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 900; }
+  .sub { margin: 0; font-size: 15px; line-height: 1.7; opacity: .82; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .tags span { font-size: 12px; padding: 5px 12px; border-radius: 999px; border: 1px solid currentColor; opacity: .75; }
+  .bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin-top: 22px; border: 1px solid rgba(0, 0, 0, .1); }
+  .bar i { flex: 1; }
+  /* 左の列は書体見本（折り返さない）の幅で広がらないよう、最小幅を 0 にする */
+  .grid { display: grid; grid-template-columns: minmax(0, 1fr) 392px; gap: 40px; padding: 36px 56px 48px; }
+  h2 { margin: 0 0 14px; font: 700 12px/1 system-ui, sans-serif; letter-spacing: .14em; color: #5A6470; }
+  h2 span { margin-left: 8px; font-family: "Noto Sans JP", sans-serif; letter-spacing: .04em; color: #8A929B; font-weight: 500; }
+  .card { background: #FFFFFF; border-radius: 16px; padding: 22px 24px; margin-bottom: 26px; box-shadow: 0 1px 2px rgba(0, 0, 0, .05); }
+  .sw-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .sw { border: 1px solid #E6E6E3; border-radius: 12px; overflow: hidden; background: #FFFFFF; }
+  .sw .chip { display: block; height: 58px; padding: 9px 10px; font: 600 12px/1 ui-monospace, Menlo, Consolas, monospace; }
+  .sw .meta { display: block; padding: 8px 10px 10px; font-size: 11px; line-height: 1.5; color: #4A535C; }
+  .sw code { font: 600 11px ui-monospace, Menlo, Consolas, monospace; color: #1B2733; }
+  .ty { padding: 12px 0; border-bottom: 1px solid #EEEEEC; }
+  .ty:last-child { border-bottom: 0; padding-bottom: 2px; }
+  .ty .meta { margin-bottom: 6px; font-size: 11px; color: #6A737C; }
+  .ty .meta code { font: 600 11px ui-monospace, Menlo, Consolas, monospace; color: #1B2733; margin-right: 6px; }
+  .ty .sample { color: #1B2733; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .demo { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; padding: 24px; border-radius: 12px; background: #FCFDFD; color: #1D1C1B; }
+  .btn { display: inline-block; padding: 16px 40px; font-weight: 700; font-size: 15px; line-height: 1; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; }
+  .btn-cta { background: #F3591D; color: #FEFBF8; border-radius: 999px; box-shadow: 0 2px 0 rgba(0, 0, 0, .12); }
+  .btn-sub { background: transparent; color: #079C59; border: 2px solid #079C59; border-radius: 999px; padding: 14px 32px; }
+  .badge { display: inline-block; padding: 6px 12px; border-radius: 4px; background: #079C59; color: #FFFFFF; font-size: 12px; font-weight: 700; }
+  .mini { width: 220px; padding: 16px; border-radius: 10px; background: #F6F7F6; color: #1D1C1B; border: 1px solid #C5D3E3; font-size: 12px; line-height: 1.6; }
+  .mini b { display: block; margin-bottom: 4px; font-size: 14px; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 900; }
+  .shapes { display: flex; gap: 16px; margin-top: 18px; }
+  .shapes div { width: 96px; height: 64px; background: #079C59; opacity: .9; display: grid; place-items: center; color: #FEFBF8; font: 600 11px ui-monospace, Menlo, Consolas, monospace; }
+  .comps { margin: 16px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; font-size: 12px; color: #4A535C; }
+  .comps code { font: 600 11px ui-monospace, Menlo, Consolas, monospace; color: #8A929B; }
+  .phone { border: 10px solid #1B2733; border-radius: 34px; overflow: hidden; background: #FCFDFD; box-shadow: 0 6px 24px rgba(0, 0, 0, .12); }
+  .wire { color-scheme: light; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; }
+  .wire p { margin: 0; }
+  .wire .w-sec { padding: 24px 22px 26px; }
+  .wire .w-no { font: 600 10px/1 system-ui, sans-serif; letter-spacing: .12em; opacity: .6; margin-bottom: 6px; }
+  .wire .w-name { font-size: 18px; line-height: 1.4; margin-bottom: 4px; font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 900; }
+  .wire .w-purpose { font-size: 11.5px; line-height: 1.6; opacity: .85; margin-bottom: 14px; }
+  .wire s { display: block; height: 6px; border-radius: 3px; background: currentColor; opacity: .22; margin-top: 7px; text-decoration: none; }
+  .wire s.w60 { width: 60%; } .wire s.w70 { width: 70%; } .wire s.w80 { width: 80%; }
+  .wire .w-btn { display: inline-block; padding: 13px 34px; font-weight: 700; font-size: 13px; line-height: 1; background: #F3591D; color: #FEFBF8; border-radius: 999px; }
+  .wire .w-faq { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); }
+  .wire .w-faq b { color: #079C59; }
+  .wire .w-faq s { flex: 1; margin: 0; }
+  .wire .w-cols2, .wire .w-cols3 { display: grid; gap: 10px; }
+  .wire .w-cols2 { grid-template-columns: 1fr 1fr; }
+  .wire .w-cols3 { grid-template-columns: repeat(3, 1fr); }
+  .wire .w-box { background: rgba(255, 255, 255, .55); padding: 12px 10px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0, 0, 0, .08); }
+  .wire .w-box i { display: block; width: 24px; height: 24px; border-radius: 50%; background: currentColor; opacity: .35; margin-bottom: 6px; }
+  .wire .w-box i.on { background: #079C59; opacity: .85; }
+  .wire .w-box em { display: block; height: 14px; width: 55%; border-radius: 4px; margin-top: 8px; background: #079C59; }
+  .wire .w-steps { display: flex; gap: 12px; }
+  .wire .w-steps > div { flex: 1; }
+  .wire .w-steps em { display: inline-grid; place-items: center; width: 22px; height: 22px; border: 1.5px solid #079C59; color: #079C59; border-radius: 50%; font: 700 11px/1 sans-serif; font-style: normal; }
+  .wire .w-ph { height: 110px; display: grid; place-items: center; font-size: 11px; border-radius: 10px; background: color-mix(in srgb, currentColor 10%, transparent); }
+  .note { margin: 14px 4px 0; font-size: 11px; line-height: 1.6; color: #6A737C; }
+  .foot { padding: 0 56px 40px; font-size: 12px; color: #6A737C; }
+</style>
+</head>
+<body>
+<header class="head">
+  <p class="kicker"><b>PATTERN PACK</b>designmark 型パック ・ pk-finance-pop ・ v2026.10</p>
+  <h1>金融・保険のポップで元気なキャンペーンLPの型</h1>
+  <p class="sub">Pop Energetic Japanese Finance Campaign LP Pattern ／ 金融・保険 ・ 主な雰囲気「ポップ・元気」 ／ designmark の設計書 20 件を集計して合成した型（特定の LP のデザインではありません）</p>
+  <div class="tags"><span>極太数字</span><span>黄色マーカー</span><span>ピル型CTA</span><span>紙吹雪</span><span>セクションごとの地色替え</span><span>フラットな塗り</span></div>
+  <div class="bar" aria-hidden="true"><i style="background: #FCFDFD"></i><i style="background: #079C59"></i><i style="background: #FDF3C3"></i><i style="background: #F6F7F6"></i><i style="background: #0A8BC9"></i><i style="background: #D7E8FB"></i></div>
+</header>
+<main class="grid">
+  <section>
+    <h2>COLORS<span>配色</span></h2>
+    <div class="card">
+      <div class="sw-grid">
+        <div class="sw"><span class="chip" style="background: #FCFDFD; color: #1B2733">#FCFDFD</span><span class="meta"><code>background</code><br>ページの基本の地色（ほぼ白）</span></div>
+        <div class="sw"><span class="chip" style="background: #079C59; color: #FFFFFF">#079C59</span><span class="meta"><code>primary</code><br>ブランド色。ヘッダー・見出し帯・濃色セクション・見出し文字に使う</span></div>
+        <div class="sw"><span class="chip" style="background: #FDFFFE; color: #1B2733">#FDFFFE</span><span class="meta"><code>on-primary</code><br>ブランド色の面に乗せる白文字</span></div>
+        <div class="sw"><span class="chip" style="background: #0A8BC9; color: #FFFFFF">#0A8BC9</span><span class="meta"><code>secondary</code><br>サブ見出し・ポイント枠・手順セクションの地に使う明るい青</span></div>
+        <div class="sw"><span class="chip" style="background: #FDF3C3; color: #1B2733">#FDF3C3</span><span class="meta"><code>background-alt</code><br>特長・手順など、セクションを切り替えるときのクリーム地</span></div>
+        <div class="sw"><span class="chip" style="background: #F6F7F6; color: #1B2733">#F6F7F6</span><span class="meta"><code>surface</code><br>FAQ・グラフ・タイルの淡いグレー面</span></div>
+        <div class="sw"><span class="chip" style="background: #D7E8FB; color: #1B2733">#D7E8FB</span><span class="meta"><code>tint-1</code><br>カード内の淡い水色パネル・ラベル円</span></div>
+        <div class="sw"><span class="chip" style="background: #1D1C1B; color: #FFFFFF">#1D1C1B</span><span class="meta"><code>text</code><br>見出し・本文・輪郭線の黒</span></div>
+        <div class="sw"><span class="chip" style="background: #F3591D; color: #FFFFFF">#F3591D</span><span class="meta"><code>cta</code><br>主CTAボタン（申込・見積）のオレンジ</span></div>
+        <div class="sw"><span class="chip" style="background: #FEFBF8; color: #1B2733">#FEFBF8</span><span class="meta"><code>on-cta</code><br>CTAボタン上の白文字</span></div>
+        <div class="sw"><span class="chip" style="background: #D2444B; color: #FFFFFF">#D2444B</span><span class="meta"><code>accent-1</code><br>サブボタン・数字強調のピンク寄りの赤</span></div>
+        <div class="sw"><span class="chip" style="background: #21B9D7; color: #FFFFFF">#21B9D7</span><span class="meta"><code>accent-2</code><br>キャンペーン帯・ラベルのターコイズ</span></div>
+        <div class="sw"><span class="chip" style="background: #FDF230; color: #1B2733">#FDF230</span><span class="meta"><code>marker</code><br>金額や重要語の下に敷く黄色マーカー・矢印</span></div>
+        <div class="sw"><span class="chip" style="background: #2F3234; color: #FFFFFF">#2F3234</span><span class="meta"><code>dark-section</code><br>フッター・最上部帯の濃いグレー</span></div>
+        <div class="sw"><span class="chip" style="background: #C5D3E3; color: #1B2733">#C5D3E3</span><span class="meta"><code>line</code><br>FAQや表の区切り線</span></div>
+        <div class="sw"><span class="chip" style="background: #CF420B; color: #FFFFFF">#CF420B</span><span class="meta"><code>cta-accessible</code><br>AA を満たす補正値（計算）</span></div>
+        <div class="sw"><span class="chip" style="background: #097AB1; color: #FFFFFF">#097AB1</span><span class="meta"><code>secondary-accessible</code><br>AA を満たす補正値（計算）</span></div>
+        <div class="sw"><span class="chip" style="background: #178095; color: #FFFFFF">#178095</span><span class="meta"><code>accent-2-accessible</code><br>AA を満たす補正値（計算）</span></div>
+        
+      </div>
+    </div>
+    <h2>TYPOGRAPHY<span>書体</span></h2>
+    <div class="card">
+      <div class="ty">
+        <div class="meta"><code>display</code>FVのメインタイトル・特典金額（白フチや縁取りを付けてもよい） ／ 装飾・ディスプレイ・Dela Gothic One・900・52px・行間 1.1</div>
+        <div class="sample" style="font-family: 'Dela Gothic One', 'Noto Sans JP', sans-serif; font-weight: 900; font-size: 44px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>headline-lg</code>セクションの大見出し（中央揃え・2行以内） ／ ゴシック・Noto Sans JP・900・28px・行間 1.3</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 900; font-size: 28px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>headline-md</code>カード・吹き出しパネル・特典の中見出し ／ ゴシック・Noto Sans JP・700・21px・行間 1.4</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 21px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>headline-sm</code>英字見出しの下に付ける日本語の副題・図のラベル ／ ゴシック・Noto Sans JP・700・16px・行間 1.4</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 16px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>accent</code>STEP・POINT・FAQなどの英字ラベルや英数字の強調 ／ 欧文サンセリフ・Montserrat・800・28px・行間 1.1</div>
+        <div class="sample" style="font-family: 'Montserrat', 'Noto Sans JP', sans-serif; font-weight: 800; font-size: 28px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>body-md</code>説明文・本文 ／ ゴシック・Noto Sans JP・500・14px・行間 1.8</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 500; font-size: 14px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>label-button</code>CTA・タブボタンの文字 ／ ゴシック・Noto Sans JP・700・15px・行間 1.3</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 15px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      <div class="ty">
+        <div class="meta"><code>note</code>※で始まる注釈・審査や条件の文言 ／ ゴシック・Noto Sans JP・400・11px・行間 1.6</div>
+        <div class="sample" style="font-family: 'Noto Sans JP', 'Noto Sans JP', sans-serif; font-weight: 400; font-size: 12px">あなたの LP を、もっと伝わる形に。Aa 123</div>
+      </div>
+      
+    </div>
+    <h2>COMPONENTS<span>部品と角丸</span></h2>
+    <div class="card">
+      <div class="demo">
+        <span class="btn btn-cta">申し込む</span>
+        <span class="btn btn-sub">詳しく見る</span>
+        <span class="badge">ポイント</span>
+        <div class="mini"><b>カードの見出し</b>本文のテキストが入ります。余白と角丸の見本です。</div>
+      </div>
+      <div class="shapes">
+        <div style="border-radius: 4px">sm 4px</div>
+        <div style="border-radius: 10px">md 10px</div>
+        <div style="border-radius: 20px">lg 20px</div>
+        <div style="border-radius: 999px">pill</div>
+      </div>
+      <ul class="comps"><li>主CTAボタン <code>button-primary</code></li><li>サブ導線ボタン <code>button-secondary</code></li><li>セクション見出し <code>section-heading</code></li><li>特典カード <code>benefit-card</code></li><li>STEPカード <code>step-card</code></li><li>ポイント番号バッジ <code>point-badge</code></li><li>FAQアコーディオン <code>faq-item</code></li><li>注意事項アコーディオン <code>notice-accordion</code></li></ul>
+    </div>
+  </section>
+  <aside>
+    <h2>PAGE STRUCTURE<span>セクションの並び</span></h2>
+    <div class="phone">
+      <div class="wire">
+        <div class="w-sec" style="background: #FCFDFD; color: #888888">
+          <p class="w-no">01</p>
+          <p class="w-name" style="color: #1D1C1B">ファーストビュー</p>
+          <p class="w-purpose">キャンペーンの特典と金額を一目で伝える</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #FDF3C3; color: #888888">
+          <p class="w-no">02</p>
+          <p class="w-name" style="color: #1D1C1B">CTA帯</p>
+          <p class="w-purpose">早い段階で申込へ誘導する</p>
+          <span class="w-btn">ボタン</span>
+          
+        </div>
+        <div class="w-sec" style="background: #FCFDFD; color: #888888">
+          <p class="w-no">03</p>
+          <p class="w-name" style="color: #1D1C1B">キャンペーン内容</p>
+          <p class="w-purpose">特典の内訳と合計額、参加条件を示す</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #2F3234; color: #FFFFFF">
+          <p class="w-no">04</p>
+          <p class="w-name" style="color: #FFFFFF">サービス紹介</p>
+          <p class="w-purpose">サービスの概要と立ち位置を伝える</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #FCFDFD; color: #888888">
+          <p class="w-no">05</p>
+          <p class="w-name" style="color: #1D1C1B">特長</p>
+          <p class="w-purpose">使う利点を3つにまとめて伝える</p>
+          <div class="w-cols3"><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div></div>
+          
+        </div>
+        <div class="w-sec" style="background: #FDF3C3; color: #888888">
+          <p class="w-no">06</p>
+          <p class="w-name" style="color: #1D1C1B">制度の解説</p>
+          <p class="w-purpose">制度や仕組みの基礎知識をやさしく説明する</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        <div class="w-sec" style="background: #FCFDFD; color: #888888">
+          <p class="w-no">07</p>
+          <p class="w-name" style="color: #1D1C1B">選ばれる理由</p>
+          <p class="w-purpose">金利・手数料・使いやすさなどの優位点を示す</p>
+          <div class="w-cols3"><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div><div class="w-box"><i class="on"></i><s></s><s class="w70"></s></div></div>
+          
+        </div>
+        <div class="w-sec" style="background: #2F3234; color: #FFFFFF">
+          <p class="w-no">08</p>
+          <p class="w-name" style="color: #FFFFFF">申込の流れ</p>
+          <p class="w-purpose">申込の手軽さを示して不安を減らす</p>
+          <span class="w-btn">ボタン</span>
+          
+        </div>
+        <div class="w-sec" style="background: #FCFDFD; color: #888888">
+          <p class="w-no">09</p>
+          <p class="w-name" style="color: #1D1C1B">よくある質問</p>
+          <p class="w-purpose">疑問や不安を解消する</p>
+          <div class="w-faq"><b>Q</b><s></s></div><div class="w-faq"><b>Q</b><s></s></div><div class="w-faq"><b>Q</b><s></s></div>
+          
+        </div>
+        <div class="w-sec" style="background: #FDF3C3; color: #888888">
+          <p class="w-no">10</p>
+          <p class="w-name" style="color: #1D1C1B">CTA</p>
+          <p class="w-purpose">最後にもう一度申込を促す</p>
+          <span class="w-btn">ボタン</span>
+          
+        </div>
+        <div class="w-sec" style="background: #FCFDFD; color: #888888">
+          <p class="w-no">11</p>
+          <p class="w-name" style="color: #1D1C1B">フッター</p>
+          <p class="w-purpose">会社情報・規約リンク・ページトップへの導線</p>
+          <div class="w-ph">写真・図</div><s></s><s class="w80"></s>
+        </div>
+        
+      </div>
+    </div>
+    <p class="note">セクションの並びと役割を、この型パックの配色・書体で描いた図です（自動で作成。どの LP の画像・文言も使っていません）。</p>
+  </aside>
+</main>
+<footer class="foot">designmark（株式会社 XECIN）の型パック ・ ライセンス CC BY 4.0 ・ https://designmark.jp/packs/pk-finance-pop/</footer>
+</body>
+</html>

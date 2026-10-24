@@ -1,1 +1,639 @@
-{"schema_version": 1, "license": "CC-BY-4.0", "attribution": "designmark (XECIN Inc.) — https://designmark.jp", "url_templates": {"page": "https://designmark.jp/packs/{id}/", "design_md": "https://designmark.jp/packs/{id}/DESIGN.md"}, "count": 0, "packs": []}
+{
+  "schema_version": 1,
+  "license": "CC-BY-4.0",
+  "attribution": "designmark (XECIN Inc.) — https://designmark.jp",
+  "url_templates": {
+    "page": "https://designmark.jp/packs/{id}/",
+    "design_md": "https://designmark.jp/packs/{id}/DESIGN.md"
+  },
+  "count": 33,
+  "packs": [
+    {
+      "id": "pk-cosmetics-cute",
+      "title": "化粧品のかわいいパステルピンクLPの型",
+      "style": "Cute Pastel Pink Cosmetics LP Pattern",
+      "category": "化粧品・スキンケア",
+      "category_slug": "cosmetics",
+      "mood": "かわいい",
+      "mood_slug": "cute",
+      "members": 60,
+      "palette": [
+        "#FCFBFA",
+        "#F8DBE4",
+        "#FCFBFA",
+        "#E8739A",
+        "#F1CED0"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-cosmetics-elegant",
+      "title": "化粧品の上品・高級な LP の型",
+      "style": "Refined Japanese Skincare LP Pattern",
+      "category": "化粧品・スキンケア",
+      "category_slug": "cosmetics",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 60,
+      "palette": [
+        "#FBFCFB",
+        "#F4F3F2",
+        "#F9F9F8",
+        "#C69291",
+        "#F4F0E5"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-haircare-elegant",
+      "title": "ヘアケアの上品・高級な LP の型",
+      "style": "Elegant Japanese Hair & Body Care LP Pattern",
+      "category": "ヘアケア・ボディケア",
+      "category_slug": "haircare",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 59,
+      "palette": [
+        "#FAFAF9",
+        "#F2F0ED",
+        "#CC8E98",
+        "#201513",
+        "#F3E1D8"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-haircare-fresh",
+      "title": "ヘアケア・ボディケアの清潔・爽やかな LP の型",
+      "style": "Fresh Clean Japanese Hair & Body Care LP Pattern",
+      "category": "ヘアケア・ボディケア",
+      "category_slug": "haircare",
+      "mood": "清潔・爽やか",
+      "mood_slug": "fresh",
+      "members": 22,
+      "palette": [
+        "#F8FAFA",
+        "#EEF3F5",
+        "#33B0C0",
+        "#F7F7F7",
+        "#BDE2E9"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-supplements-dense",
+      "title": "健康食品の情報量多め・訴求型 LP の型",
+      "style": "Information-Dense Persuasive Supplement LP Pattern",
+      "category": "健康食品・サプリメント",
+      "category_slug": "supplements",
+      "mood": "情報量多め・訴求型",
+      "mood_slug": "dense",
+      "members": 38,
+      "palette": [
+        "#FCFCFC",
+        "#F4F4F1",
+        "#328B47",
+        "#FCFBFB",
+        "#1F201F"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-supplements-elegant",
+      "title": "健康食品の上品・高級なLPの型",
+      "style": "Elegant Japanese Supplement LP Pattern",
+      "category": "健康食品・サプリメント",
+      "category_slug": "supplements",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 32,
+      "palette": [
+        "#FDFCFC",
+        "#F4F3F3",
+        "#F7F7F5",
+        "#A70A13",
+        "#851C1A"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-food-pop",
+      "title": "食品・飲料のポップで元気な LP の型",
+      "style": "Pop Energetic Japanese Food LP Pattern",
+      "category": "食品・飲料",
+      "category_slug": "food",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 60,
+      "palette": [
+        "#FEFDFC",
+        "#E41219",
+        "#F5E7CD",
+        "#FCD00C",
+        "#FDFDFC"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-food-natural",
+      "title": "食品・飲料のナチュラルで温かい LP の型",
+      "style": "Natural Warm Food & Beverage LP Pattern",
+      "category": "食品・飲料",
+      "category_slug": "food",
+      "mood": "ナチュラル",
+      "mood_slug": "natural",
+      "members": 30,
+      "palette": [
+        "#FAF8F3",
+        "#F8F3EE",
+        "#FDFCFA",
+        "#462718",
+        "#251917"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-sweets-elegant",
+      "title": "菓子・スイーツの上品・高級な LP の型",
+      "style": "Elegant Japanese Confectionery LP Pattern",
+      "category": "菓子・スイーツ",
+      "category_slug": "sweets",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 60,
+      "palette": [
+        "#F7F2E5",
+        "#522919",
+        "#F4E5D1",
+        "#301007",
+        "#A17846"
+      ],
+      "version": "2026.10.2",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-sweets-pop",
+      "title": "お菓子のポップ・元気な LP の型",
+      "style": "Pop Energetic Japanese Sweets LP Pattern",
+      "category": "菓子・スイーツ",
+      "category_slug": "sweets",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 60,
+      "palette": [
+        "#FCFBF9",
+        "#DA0D19",
+        "#F8EAC9",
+        "#FCFCFC",
+        "#0B3A8F"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-alcohol-pop",
+      "title": "酒類のポップ・元気な LP の型",
+      "style": "Pop Festive Japanese Alcohol LP Pattern",
+      "category": "酒類",
+      "category_slug": "alcohol",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 24,
+      "palette": [
+        "#FDFCF9",
+        "#1F3C86",
+        "#F6F6EF",
+        "#F9F9F8",
+        "#DE1B14"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-fashion-elegant",
+      "title": "ファッション小物の上品・高級なLPの型",
+      "style": "Elegant Japanese Fashion Accessory LP Pattern",
+      "category": "ファッション・アクセサリー",
+      "category_slug": "fashion",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 60,
+      "palette": [
+        "#FAF8F6",
+        "#F2F0EE",
+        "#C2AAA2",
+        "#F9F8F8",
+        "#F2E7E3"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-fashion-cute",
+      "title": "ファッション小物のかわいいパステルLPの型",
+      "style": "Cute Pastel Fashion Lookbook LP Pattern",
+      "category": "ファッション・アクセサリー",
+      "category_slug": "fashion",
+      "mood": "かわいい",
+      "mood_slug": "cute",
+      "members": 39,
+      "palette": [
+        "#FBFAF7",
+        "#F8EEE2",
+        "#F9C1D4",
+        "#EBD9DD",
+        "#FCEEF3"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-gadgets-elegant",
+      "title": "家電・ガジェットの上品・高級な LP の型",
+      "style": "Refined Premium Home Appliance LP Pattern",
+      "category": "家電・ガジェット",
+      "category_slug": "gadgets",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 21,
+      "palette": [
+        "#F7F8F8",
+        "#F6F5F3",
+        "#2A3140",
+        "#1F1F21",
+        "#FAFBFB"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-real-estate-elegant",
+      "title": "住宅・不動産の上品・高級なLPの型",
+      "style": "Refined Architectural Housing LP Pattern",
+      "category": "住宅・不動産・リフォーム",
+      "category_slug": "real-estate",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 23,
+      "palette": [
+        "#F8F8F7",
+        "#EDEDEC",
+        "#383633",
+        "#2D2C2C",
+        "#FAF9F8"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-finance-trust",
+      "title": "金融・保険の信頼・誠実な LP の型",
+      "style": "Trustworthy Japanese Finance & Insurance LP Pattern",
+      "category": "金融・保険",
+      "category_slug": "finance",
+      "mood": "信頼・誠実",
+      "mood_slug": "trust",
+      "members": 29,
+      "palette": [
+        "#FDFDFD",
+        "#EDF3F5",
+        "#E2EFF9",
+        "#0B4C97",
+        "#FBFBFB"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-finance-pop",
+      "title": "金融・保険のポップで元気なキャンペーンLPの型",
+      "style": "Pop Energetic Japanese Finance Campaign LP Pattern",
+      "category": "金融・保険",
+      "category_slug": "finance",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 20,
+      "palette": [
+        "#FCFDFD",
+        "#079C59",
+        "#FDF3C3",
+        "#F6F7F6",
+        "#0A8BC9"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-education-pop",
+      "title": "スクール・習い事のポップで元気なLPの型",
+      "style": "Pop Energetic School Education LP Pattern",
+      "category": "教育・スクール・資格",
+      "category_slug": "education",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 58,
+      "palette": [
+        "#FBFBFA",
+        "#F5F7F5",
+        "#278FDA",
+        "#F9FAF9",
+        "#E5F3F9"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-education-trust",
+      "title": "スクール・資格の信頼・誠実なLPの型",
+      "style": "Trustworthy Navy Education School LP Pattern",
+      "category": "教育・スクール・資格",
+      "category_slug": "education",
+      "mood": "信頼・誠実",
+      "mood_slug": "trust",
+      "members": 26,
+      "palette": [
+        "#FDFDFD",
+        "#E9EFF4",
+        "#173C87",
+        "#F8F8F7",
+        "#DAE2EE"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-recruiting-pop",
+      "title": "求人・採用のポップで元気なLPの型",
+      "style": "Pop & Energetic Japanese Recruitment LP Pattern",
+      "category": "求人・採用",
+      "category_slug": "recruiting",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 60,
+      "palette": [
+        "#FCFCFB",
+        "#F3F2F0",
+        "#DD1518",
+        "#FCFCFB",
+        "#1067BF"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-recruiting-trust",
+      "title": "求人・採用の信頼・誠実な紺基調 LP の型",
+      "style": "Trustworthy Corporate Navy Recruitment LP Pattern",
+      "category": "求人・採用",
+      "category_slug": "recruiting",
+      "mood": "信頼・誠実",
+      "mood_slug": "trust",
+      "members": 60,
+      "palette": [
+        "#FDFDFE",
+        "#F0F2F5",
+        "#0F377E",
+        "#F9F9F9",
+        "#112952"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-btob-saas-trust",
+      "title": "BtoB・SaaSの信頼・誠実なLPの型",
+      "style": "Trustworthy BtoB SaaS LP Pattern",
+      "category": "BtoB・SaaS・ITサービス",
+      "category_slug": "btob-saas",
+      "mood": "信頼・誠実",
+      "mood_slug": "trust",
+      "members": 60,
+      "palette": [
+        "#FDFEFD",
+        "#F1F4F6",
+        "#1B58A8",
+        "#F6F7F8",
+        "#16386F"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-btob-saas-fresh",
+      "title": "BtoB SaaSの清潔・爽やかなLPの型",
+      "style": "Clean Fresh BtoB SaaS LP Pattern",
+      "category": "BtoB・SaaS・ITサービス",
+      "category_slug": "btob-saas",
+      "mood": "清潔・爽やか",
+      "mood_slug": "fresh",
+      "members": 45,
+      "palette": [
+        "#FDFDFE",
+        "#F2F7F8",
+        "#22B6B4",
+        "#FBFCFC",
+        "#E0F5F6"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-medical-soft",
+      "title": "クリニック・医療のやさしく柔らかい LP の型",
+      "style": "Gentle Warm Clinic LP Pattern",
+      "category": "医療・クリニック・ヘルスケア",
+      "category_slug": "medical",
+      "mood": "やさしい・柔らかい",
+      "mood_slug": "soft",
+      "members": 24,
+      "palette": [
+        "#FCFCFA",
+        "#FBFBFB",
+        "#F9F6F3",
+        "#EE8430",
+        "#FBF6EC"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-medical-trust",
+      "title": "医療・クリニックの信頼・誠実な LP の型",
+      "style": "Trustworthy Japanese Medical Clinic LP Pattern",
+      "category": "医療・クリニック・ヘルスケア",
+      "category_slug": "medical",
+      "mood": "信頼・誠実",
+      "mood_slug": "trust",
+      "members": 21,
+      "palette": [
+        "#FBFCFC",
+        "#F5F8FA",
+        "#235BB3",
+        "#CAE3F4",
+        "#102250"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-travel-pop",
+      "title": "旅行・観光のポップで元気な LP の型",
+      "style": "Pop Cheerful Travel & Tourism LP Pattern",
+      "category": "旅行・観光・ホテル",
+      "category_slug": "travel",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 43,
+      "palette": [
+        "#FCFCFA",
+        "#17B7B2",
+        "#F2F4F6",
+        "#FCFCFC",
+        "#2D95D5"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-travel-wafu",
+      "title": "旅行・観光の和風で格調ある LP の型",
+      "style": "Japanese Washi Travel & Tourism LP Pattern",
+      "category": "旅行・観光・ホテル",
+      "category_slug": "travel",
+      "mood": "和風",
+      "mood_slug": "wafu",
+      "members": 24,
+      "palette": [
+        "#F8F8F6",
+        "#F9FAF9",
+        "#F9F8F6",
+        "#A38B72",
+        "#2D5F8D"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-restaurant-elegant",
+      "title": "飲食店の上品・高級な LP の型",
+      "style": "Refined Japanese Restaurant LP Pattern",
+      "category": "飲食店・レストラン",
+      "category_slug": "restaurant",
+      "mood": "上品・高級",
+      "mood_slug": "elegant",
+      "members": 39,
+      "palette": [
+        "#F8F7F5",
+        "#E8DFD3",
+        "#015E3C",
+        "#140B06",
+        "#F4F3F1"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-restaurant-wafu",
+      "title": "和食・飲食店の和風で落ち着いたLPの型",
+      "style": "Japanese Washi & Sumi Restaurant LP Pattern",
+      "category": "飲食店・レストラン",
+      "category_slug": "restaurant",
+      "mood": "和風",
+      "mood_slug": "wafu",
+      "members": 22,
+      "palette": [
+        "#F6F4EF",
+        "#E3D8C8",
+        "#100E0D",
+        "#2C2723",
+        "#FBFAF7"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-entertainment-dark-luxury",
+      "title": "エンタメ作品の漆黒×金のダークな LP の型",
+      "style": "Cinematic Dark Luxury Entertainment LP Pattern",
+      "category": "エンタメ・ゲーム・アプリ",
+      "category_slug": "entertainment",
+      "mood": "ラグジュアリー・ダーク",
+      "mood_slug": "dark-luxury",
+      "members": 60,
+      "palette": [
+        "#040405",
+        "#0B0B0B",
+        "#161312",
+        "#D21019",
+        "#F7F6F5"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-entertainment-pop",
+      "title": "エンタメ・アプリのポップで元気なLPの型",
+      "style": "Pop Energetic Entertainment & App LP Pattern",
+      "category": "エンタメ・ゲーム・アプリ",
+      "category_slug": "entertainment",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 60,
+      "palette": [
+        "#FDFCFB",
+        "#D83212",
+        "#FBFBFB",
+        "#F6F6F6",
+        "#1E5BAA"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-campaign-pop",
+      "title": "キャンペーンのポップ・元気なLPの型",
+      "style": "Pop Energetic Campaign LP Pattern",
+      "category": "キャンペーン・プレゼント",
+      "category_slug": "campaign",
+      "mood": "ポップ・元気",
+      "mood_slug": "pop",
+      "members": 60,
+      "palette": [
+        "#FDFDFB",
+        "#FCFBF9",
+        "#FBF5DA",
+        "#D5010F",
+        "#153A98"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "pk-campaign-cute",
+      "title": "プレゼントキャンペーンのかわいいLPの型",
+      "style": "Cute Pastel Campaign & Giveaway LP Pattern",
+      "category": "キャンペーン・プレゼント",
+      "category_slug": "campaign",
+      "mood": "かわいい",
+      "mood_slug": "cute",
+      "members": 37,
+      "palette": [
+        "#FFFEFC",
+        "#FDFDFC",
+        "#FBE2E6",
+        "#E8568B",
+        "#F8DDEB"
+      ],
+      "version": "2026.10",
+      "updated_at": "2026-10-24"
+    }
+  ]
+}
