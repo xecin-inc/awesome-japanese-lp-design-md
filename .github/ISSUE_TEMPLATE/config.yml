@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 掲載の削除依頼 / Takedown request
+    url: https://designmark.jp/takedown/
+    about: designmark.jp の掲載の削除依頼は、サイトのフォームからお送りください（Issue では受け付けません） / Please use the form on designmark.jp
+  - name: 制作の相談 / Consulting
+    url: https://designmark.jp/consult/
+    about: AI を使った LP の制作や、自社専用の DESIGN.md づくりのご相談 / AI-built landing pages and custom DESIGN.md files

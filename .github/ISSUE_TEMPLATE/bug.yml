@@ -1,0 +1,37 @@
+name: 不具合 / Bug report
+description: 型パックの不具合（lint のエラー・見本の表示の崩れなど） / Problems with a pack (lint errors, broken preview, etc.)
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: pack
+    attributes:
+      label: 型パックの ID / Pack ID
+      placeholder: pk-cosmetics-elegant
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種類 / Type
+      options:
+        - lint のエラー / Lint error
+        - 見本の表示の崩れ / Broken preview
+        - 内容の誤り / Wrong content
+        - その他 / Other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容 / Details
+      description: 起きたこと・期待したこと・再現の手順 / What happened, what you expected, and how to reproduce
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 使った環境（任意） / Environment (optional)
+      placeholder: 例 Claude Code / Cursor / design.md CLI 0.4.0
+    validations:
+      required: false

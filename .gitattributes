@@ -1,0 +1,3 @@
+# 改行は LF に固定する（サイトの /packs/<ID>/DESIGN.md と main のファイルをバイト一致させるため）
+* text=auto eol=lf
+*.png binary

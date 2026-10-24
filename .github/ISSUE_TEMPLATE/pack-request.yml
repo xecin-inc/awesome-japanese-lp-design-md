@@ -1,0 +1,33 @@
+name: 型パックの要望 / Pack request
+description: 欲しい業種・雰囲気の型パックを教えてください / Request a pattern pack for an industry and mood
+title: "[pack request] "
+labels: ["pack-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        型パックは、designmark で公開中の設計書のうち、業種と主な雰囲気が同じものが 20 件以上ある組み合わせから、月 1 回作ります。
+        いただいた要望は、組み合わせの選び方の見直しに使います（すぐに作れるとは限りません）。
+        Packs are built monthly from industry × main-mood combinations that have at least 20 published designs on designmark.
+        Requests help us decide which combinations to add; we cannot promise a pack for every request.
+  - type: input
+    id: industry
+    attributes:
+      label: 業種 / Industry
+      placeholder: 例 化粧品・スキンケア / e.g. cosmetics
+    validations:
+      required: true
+  - type: input
+    id: mood
+    attributes:
+      label: 雰囲気 / Mood
+      placeholder: 例 上品・高級 / e.g. elegant
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: 使い道（任意） / How you would use it (optional)
+      description: どんな LP・サービスで使いたいか / What kind of landing page or product you are building
+    validations:
+      required: false
